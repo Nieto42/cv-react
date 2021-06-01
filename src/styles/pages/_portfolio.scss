@@ -1,0 +1,25 @@
+.portfolio {
+    .portfolioContent{
+        width: 100%;
+        min-height: $minHeight;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr;
+        grid-template-areas: 
+        "1"
+        "2";
+    }
+    .radioDisplay {
+        grid-area: 1;
+        background: $color-1;
+        border-radius: $borderRadius;
+        width: 100%;
+        user-select: none;
+        box-shadow: $shadow;
+
+        li {
+            color: $color-3
+            
+        }
+    }
+}
