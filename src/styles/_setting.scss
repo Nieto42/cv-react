@@ -46,7 +46,7 @@ a {
 a:visited {
   color:$black;
 }
-.home, .knowledges, .portfolio, .contact {
+.home, .knowledges, .portfolio,.contact{
   display: flex;
 
   @media screen and (max-width: 850px){
